@@ -1,0 +1,91 @@
+/*GENERALI*/
+
+body {
+    font-size: 1em;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    margin: 80px 0;
+}
+
+#lista h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+#lista ul {
+    padding-left: 50px;
+}
+
+/*MENU A TENDINA*/
+
+#btn {
+    color: white;
+    background-color: blue;
+    border: none;
+    height: 50px;
+    width: 65px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(59, 59, 249);
+}
+
+#menu {
+    position: relative;
+    display: inline-block;
+}
+
+.voci {
+    display: none;
+    position: absolute;
+    background-color: rgb(136, 136, 233);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 2px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.voci a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px;
+}
+
+#menu a:hover {
+    background-color: rgb(203, 203, 235);
+}
+
+.apri {
+    display: block;
+}
+
+/*BOTTONI*/
+
+/*LISTA*/
+
+li {
+    margin-top: 5px;
+}
+
+.rosso {
+    color: red;
+}
+
+.barra {
+    text-decoration: line-through;
+}
+
+.grigio {
+    color: gray;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina interattiva</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="menu">
+        <button type="button" id="btn" onclick="menuOpen()">APRI</button>
+
+        <div id='menuOpen' class="voci">
+            <a href="#">Home</a>
+            <a href="#">Chi sono</a>
+            <a href="#">Contatti</a>
+        </div>
+    </div>
+
+    <h1 id="scritta">Pagina Interattiva</h1>
+
+
+    <button type="button" id="grande" onclick="grande()">Grande</button>
+    <button type="button" class="colore" onclick="colore()">Colore</button>
+    <button type="button" class="maiuscolo" onclick="maiuscolo()">Maiuscolo</button>
+    <button type="button" class="nascondi" onclick="nascondi()">Nascondi</button>
+    <button type="button" class="mostra" onclick="mostra()">Mostra</button>
+
+    <div id="lista">
+
+        <h2>Lista degli impegni giornalieri</h2>
+
+        <ul id="impegni">
+            <li class="item">Lavare la macchina</li>
+            <li class="item">Andare dal dentista</li>
+            <li class="item">Andare in palestra</li>
+            <li class="item">Fare la spesa</li>
+        </ul>
+
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
